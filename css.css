@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+  background-size: cover;
+}
+
+.cardbg {
+  background-color: whitesmoke;
+}
+
+.brandFont {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.card img {
+  height: 280px;
+}
+
+/* Footer styles */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.icons .fa {
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+.card-title{
+  margin-top: 110px;
+  
+}
+.text{
+  font-family: Georgia;
+  color: white;
+  font-weight: 400;
+  margin-top: 70px;
+}
+
+
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+cursor: pointer;
+}
+
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.read{
+border-radius: 110px;
+height: 40px;
+color:blue;
+border-color: blue;
+font-family: sans-serif;
+transition: 0.35s;
+border-width: 1px;
+}
+.read:hover{
+  cursor: pointer;
+  background-color: #0d6efd;
+  color: white;
+  border-color: white;
+  box-shadow: 6px 5px 16px rgba(0,0,0,.6);
+}
+.made{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#contact{
+  margin-bottom: 5px;
+}
+.footer-social{
+ margin-bottom: 5px;
+}
